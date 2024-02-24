@@ -17,7 +17,7 @@ const Hero = () => {
         autoPlay
         muted
         loop
-        className={`absolute top-[-340px] h-full w-full left-0 z-[-1] object-cover ${!isEdge ? 'scale-y-[-1]' : ''}`}
+        className={`absolute top-[-300px] h-full w-full left-0 z-[-1] object-cover ${!isEdge ? 'scale-y-[-1]' : ''}`}
       >
         <source src="/blackhole.webm" type="video/webm" />
       </video>
